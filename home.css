@@ -1,0 +1,69 @@
+body{
+    padding-top: 15px; 
+    background-image: url(imagens/wallp2.jpg);
+}
+
+.navbar{
+    background-color: #7A378B; 
+    border: none; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+
+#rf{
+    float: left; 
+    width: 190px;
+    margin-top: -43px;
+}
+
+#btf{
+    float: left; 
+    width: 50px;
+    margin-top: -15px;
+    padding-left:10px;;
+}
+
+
+
+.navbar-nav{
+float: right;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: white;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #D64848;
+}
+.col-md-4 {margin: 0px; padding: 0px;}
+.row{width: 90%; margin-left: auto; margin-right: auto;}
+
+
+.item{
+    background: #333;    
+    text-align: center;
+   
+}
+
+
+.carousel {
+    background: white;
+    padding: 1%;
+    margin-left: -14px;
+    margin-right: -14px;
+    height: auto;
+}
+
+.col-md-3 ,.col-xs-6{padding: 0px; margin: 0px;}
+
+.storeInfo{background-color: white; width: 90%; margin-left: auto; margin-right: auto;  padding-top: 5px; padding-bottom: 10px; opacity: 0.6; margin-top: 20px; border-radius: 25px; padding-left: 50px;}
+
+.storeInfo img{float: right; }
+
+.contatIcon{width: 20px ;margin-right: 10px;}
