@@ -72,12 +72,13 @@ float: right;
        
         
     }
+    
 }
 
 
 .carousel {
     border-radius: 25px;
-    height: 600px;
+    height: auto;
     overflow: hidden;
     width: 90%;
     margin-left: auto;
