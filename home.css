@@ -42,7 +42,7 @@ float: right;
     margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .navbar-header {
         float: none;
     }
