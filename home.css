@@ -1,11 +1,14 @@
 body{
     padding-top: 15px; 
+
     background-image: url(imagens/wallp2.jpg);
 }
 
 .navbar{
-    background-color: transparent;
-    background: transparent;
+   
+    
+    background-color: purple;
+    border-radius: 25px;
     border-color: transparent;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -29,7 +32,7 @@ float: right;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #BF3EFF;
+    color: white;
     font-weight: bold;
     text-shadow: 1px 1px black;
     font-family:Verdana;
@@ -71,3 +74,46 @@ float: right;
     }
 }
 
+
+.carousel {
+    border-radius: 25px;
+    height: 600px;
+    overflow: hidden;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-right: 0px;
+    padding-left: 0px;
+    
+    
+}
+.carousel .item {
+    
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-rig
+    border-right: none;
+}
+.carousel .active.left, .carousel .active.right {
+    left:0;
+    opacity:1;
+    z-index:2;
+    margin-right: 0px;
+    padding-right: 0px;
+    
+}
+.carousel .next, .carousel .prev {
+    left:0;
+    opacity:1;
+    z-index:1;
+    margin-right: 0px;
+}
+.contatIcon{width: 25px;margin-right: 10px;}
+
+.panel-default{color:white; width: 90%;margin-left: auto; margin-right: auto; background-color: transparent; border-color: transparent; text-shadow: 1px 1px black;  }
