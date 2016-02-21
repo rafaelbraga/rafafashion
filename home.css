@@ -116,4 +116,9 @@ float: right;
 }
 .contatIcon{width: 25px;margin-right: 10px;}
 
-.panel-default{color:white; width: 90%;margin-left: auto; margin-right: auto; background-color: transparent; border-color: transparent; text-shadow: 1px 1px black;  }
+.panel-default{color:white;
+    width: 90%;margin-left: auto;
+    margin-right: auto; 
+    background-color: transparent; 
+    border-color: transparent; 
+    text-shadow: 1px 1px black;  }
