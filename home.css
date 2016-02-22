@@ -1,6 +1,7 @@
 body{
     padding-top: 15px; 
-    background-image: url(imagens/wallp2.jpg);
+        background-image: url(imagens/wallp2.jpg);
+
 }
 .navbar{ 
     background-color: purple;
@@ -41,10 +42,12 @@ float: right;
     height:600px;
 }
 .carousel {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     width: 99%;
     margin-left: auto;
     margin-right: auto;
+    border: 10px;   
+    border-color: white;
 }
 .carousel-caption {
     z-index: 10;
@@ -83,8 +86,10 @@ float: right;
     border-color: transparent; 
     text-shadow: 1px 1px black;  
 }
-#imft{ max-width: 300px;}
+#imft{ max-width: 300px; position: relative;}
+#imft:hover{top:-2px;box-shadow:0 2px 2px #666}
 .row{padding-left: 10px;}
+
 
 
 @media screen and (max-width: 1200px) {
